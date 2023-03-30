@@ -1,0 +1,136 @@
+/* reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global styles */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #2d2d2d;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #2d2d2d;
+}
+
+header a {
+    color: #f7f7f7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f7f7f7;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #2d2d2d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #2d2d2d;
+    background-color: transparent;
+    color: #2d2d2d;
+}
+
+input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border-bottom-color: #444444;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #2d2d2d;
+    color: #f7f7f7;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#saved {
+    margin-top: 2rem;
+}
+
+#saved ul {
+    list-style: none;
+}
+
+#saved li {
+    margin-bottom: 0.5rem;
+}
+
+#saved a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
